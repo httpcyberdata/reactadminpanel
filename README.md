@@ -8,6 +8,7 @@ ___________
 ### Software versions
  - React: 18.0.0
  - webpack 5.72.0
+ - iconscout/react-unicons 1.1.16
 
 ### Problems in the project:
     No problems listed.
