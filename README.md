@@ -59,8 +59,8 @@ ___________
             }
         ];
         ```
-2. Import data into a component, iterate upon the data and retrieve children objects of the data. Instead of vanilla javascript, React lets you comparmentize data and html and use JavaScript for complex operations in the front-end.
-**Import data into a component, iterate upon the data and retrieve children objects of the data. This data has the icon name and the heading, with .map we can iterate this data by index**
+2. Iteration & objects
+Import data into a component, iterate upon the data and retrieve children objects of the data. Instead of vanilla javascript, React lets you comparmentize data and html and use JavaScript for complex operations in the front-end.
    ```
         {SidebarData.map((item, index) => {
             return (
@@ -73,3 +73,9 @@ ___________
             )
         })}
     ```
+3. Javascript if statement in styling
+You can have state in the component and check what state is there currently and have that dictate what className text to pass to the className attribute. That's all className accepts is a string of text. It's maniputable.
+
+```
+    className={selected === index ? 'menuItem active' : 'menuItem' }
+```
