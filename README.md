@@ -32,10 +32,10 @@ ___________
 ### Coding styles I used:
 
 ### What I learned
-    1. Creating raw data and mapping it in a view.
-            **Create and export data**
-            ```
-                export const SidebarData = [
+1. Creating raw data and mapping it in a view.
+ **For example instead of a written from scratch sidebar, have mutable data so anytime I change the data it will change the sidebar. It's another way of doing things.**
+      ```
+        export const SidebarData = [
             {
                 icon: UilEstate,
                 heading: "Dashboard"
@@ -57,17 +57,18 @@ ___________
                 heading: 'Analytics'
             }
         ];
-            ```
-            **Import data into a component, iterate upon the data and retrieve children objects of the data**
-            ```
-                    {SidebarData.map((item, index) => {
-                    return (
-                        <div className="menuItem">
-                            <item.icon />
-                            <span>
-                                {item.heading}
-                            </span>
-                        </div>
-                    )
-                    })}
-            ```
+        ```
+2. Import data into a component, iterate upon the data and retrieve children objects of the data. Instead of vanilla javascript, React lets you comparmentize data and html and use JavaScript for complex operations in the front-end.
+**Import data into a component, iterate upon the data and retrieve children objects of the data. This data has the icon name and the heading, with .map we can iterate this data by index**
+   ```
+        {SidebarData.map((item, index) => {
+            return (
+                <div className="menuItem">
+                    <item.icon />
+                    <span>
+                        item.heading}
+                    </span>
+                </div>
+            )
+        })}
+    ```
