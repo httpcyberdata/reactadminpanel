@@ -23,6 +23,9 @@ ___________
 
 ### Photos of project:
 ![29 minutes into the tutorial](/public/images/beginning_reactadminpanel.png)
+![Sidebar animation](/public/images/sidebar_gif.
+gif)
+![Progressbar progress](/public/images/reactadminpanel_1.png)
 
 ### Apps used:
     - VS Code

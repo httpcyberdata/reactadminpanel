@@ -6,6 +6,7 @@
     color: white;
     position: relative;
     cursor: pointer;
+    padding: 1rem;
 }
 
 .CompactCard:hover {
@@ -45,5 +46,18 @@
 }
 
 .detail {
-    margin-right: 50px;
+    /* margin-right: 50px; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.detail > span:nth-child(2) {
+    font-size: 22px;
+    font-weight: bold;
+}
+.detail > span:nth-child(3) {
+    font-size: 12px;
 }
