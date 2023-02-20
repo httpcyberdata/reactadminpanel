@@ -8,7 +8,7 @@ import { useState } from 'react';
 const Sidebar = () => {
   const [selected, setSelected] = useState(0);
   return (
-    <div className="Sidebar">
+    <div className="sidebar">
         <div className="logo">
             <img src={Logo} alt="" />
             <span>
