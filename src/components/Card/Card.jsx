@@ -9,31 +9,40 @@ const Card = (props) => {
     return (
         <AnimateSharedLayout>
             {
-                expanded? (
+                expanded ? (
                     'Expanded'
-                ) : <CompactCard param = {props} />
+                ) :
+                <CompactCard param={props} />
             }
         </AnimateSharedLayout>
     )
 }
 
 // CompactCard
-function CompactCard ({ param }) {
+function CompactCard({param}) {
     const Png = param.png;
     return (
-        <div className="CompactCard">
+        <div 
+            className="CompactCard"
+            style={{
+                background: param.color.backGround,
+                boxShadow: param.color.boxShadow
+            }}
+        >
             <div className="radialBar">
-                <CircularProgressbar 
+                <CircularProgressbar
+                    className='CircularProgressbar'
                     value={param.barValue}
                     text={`${param.barValue}%`}
-                />
+                 />
             </div>
             <div className="detail">
-                <Png />
+                <Png/>
                 <span>${param.value}</span>
                 <span>Last 24 hours</span>
             </div>
         </div>
     )
 }
+
 export default Card;
