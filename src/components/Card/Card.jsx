@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Chart from 'react-apexcharts';
 import { AnimateSharedLayout } from 'framer-motion';
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
@@ -67,7 +68,7 @@ function ExpandedCard({param, setExpanded}) {
                 {param.title}
             </span>
             <div className="chartContainer">
-                Chart
+               <Chart series={param.series} type="area" />
             </div>
             <span>
                 Last 24 hours
