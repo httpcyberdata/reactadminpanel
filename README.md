@@ -22,10 +22,10 @@ ___________
 
 
 ### Photos of project:
-![29 minutes into the tutorial](/public/images/beginning_reactadminpanel.png)
-![Apex chart transitions](/public/images/chartanim_1.gif)
+![29 minutes into the tutorial](/public/images/entirepage_1.jpg)
+![Apex chart transitions](/public/images/chartanim_3.gif)
 ![Sidebar animation](/public/images/sidebar_4.gif)
-![Progressbar progress](/public/images/reactadminpanel_1.png)
+![Progressbar progress](/public/images/updatedpage_1.jpg)
 
 ### Apps used:
     - VS Code
