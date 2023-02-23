@@ -6,8 +6,7 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import { makeStyles } from '@mui/material';
-
+import './Table.css';
 function createData(name, trackingId, date, status) {
     return { name, trackingId, date, status };
 }
@@ -19,7 +18,7 @@ const rows = [
   createData("Cupcake", 18908421, "2 March 2022", "Delivered")
 ];
 
-const makeStyle = (status) => {
+const makeStyles = (status) => {
     if(status === 'Approved') {
         return {
             background: 'rgb(145 254 159 / 47%)',
@@ -77,7 +76,7 @@ export default function BasicTable() {
                             {row.status}
                         </span>
                 </TableCell>
-                <TableCell align="left">Detail</TableCell>
+                <TableCell align="left" className="Details">Detail</TableCell>
                 </TableRow>
             ))}
             </TableBody>
