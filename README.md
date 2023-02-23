@@ -23,8 +23,8 @@ ___________
 
 ### Photos of project:
 ![29 minutes into the tutorial](/public/images/beginning_reactadminpanel.png)
-![Apex chart transitions](/public/images/apexcharts.gif)
-![Sidebar animation](/public/images/sidebar_gif.gif)
+![Apex chart transitions](/public/images/chartanim_1.gif)
+![Sidebar animation](/public/images/sidebar_4.gif)
 ![Progressbar progress](/public/images/reactadminpanel_1.png)
 
 ### Apps used:
