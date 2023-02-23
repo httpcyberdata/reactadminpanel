@@ -81,3 +81,27 @@ You can have state in the component and check what state is there currently and 
 ```
     className={selected === index ? 'menuItem active' : 'menuItem' }
 ```
+4. Factory function usage in React
+   "A factory function is a function that returns a new object." -- <https://www.javascripttutorial.net/javascript-factory-functions/> . 
+This function takes a string called 'status' and if that string is 'Approved' or 'Pending' it will return a new object. To prevent different objects that aren't the two mentioned then return a error or if error handling isn't needed then just a white background. 
+   About databases, I thought of what if one creates a factory function to return different styles based on what string is passed to the factory function and thus to be presented in the user interface based on a response data from the database or load a component with various props based on a factory function and an axios database query from several APIs.
+```
+const makeStyle = (status) => {
+    if(status === 'Approved') {
+        return {
+            background: 'rgb(145 254 159 / 47%)',
+            color: 'green'
+        }
+    } else if(status == 'Pending') {
+        return {
+            background: '#ffadad8f',
+            color: 'red'
+        }
+    } else {
+        return {
+            background: ''
+        }
+    }
+}
+
+```
