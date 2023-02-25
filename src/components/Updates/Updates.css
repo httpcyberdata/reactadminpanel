@@ -20,6 +20,10 @@
     height: 3.2rem;
 }
 
+.noti > div > span:nth-of-type(1) {
+    font-weight: bold;
+}
+
 @media screen and (max-width: 1519px) {
    .Updates {
         margin-left: 50px;
