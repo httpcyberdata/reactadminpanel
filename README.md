@@ -25,6 +25,7 @@ ___________
 ![Apex chart transitions](/public/images/chartanim_3.gif)
 ![Sidebar animation](/public/images/sidebar_4.gif)
 ![Progressbar progress](/public/images/updatedpage_1.jpg)
+![Updates on right side](/public/images/reactadminpanel_2.png)
 
 ### Apps used:
     - VS Code

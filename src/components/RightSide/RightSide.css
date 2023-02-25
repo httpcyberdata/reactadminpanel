@@ -1,6 +1,22 @@
 .RightSide {
     display: flex;
     flex-direction: column;
-    width: 95%;
+    width: 85%;
     justify-content: space-evenly;
+    flex: 50px;
+
 }
+.RightSide h3 {
+    margin-left: -130px;
+}
+@media screen and (max-width: 1519px) {
+    .RightSide h3{
+         margin-left: 50px;
+    }
+ }
+
+ @media screen and (min-width: 1523px) {
+    .RightSide {
+         margin-left: 150px;
+    }
+ }

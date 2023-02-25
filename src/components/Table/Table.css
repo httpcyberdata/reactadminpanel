@@ -22,3 +22,13 @@
 .Details {
     color: #00b5ff !important;
 }
+
+.Table {
+    width: 80%;
+}
+
+@media screen and (min-width:1696px) {
+    .Table {
+        width: 90%;
+    }
+}
