@@ -9,14 +9,26 @@
 .RightSide h3 {
     margin-left: -130px;
 }
+
+.RightSide p {
+    margin-left: -130px;
+}
+.RightSide .CustomerReview {
+    padding-left: -1500px;
+}
+
 @media screen and (max-width: 1519px) {
     .RightSide h3{
          margin-left: 50px;
+    }
+    .RightSide p {
+        padding-left: 190px;
     }
  }
 
  @media screen and (min-width: 1523px) {
     .RightSide {
-         margin-left: 150px;
+         margin-left: 130px;
     }
+
  }
