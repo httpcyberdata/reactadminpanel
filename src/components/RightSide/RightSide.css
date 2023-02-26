@@ -66,6 +66,15 @@
     }
  }
 
+
+@media screen and (max-width: 820px) { 
+    .RightSide .cr-section { 
+        margin-left: -25px;
+    }
+    .RightSide .cr-h3 { 
+    }
+}
+
 /* .RightSide .CustomerReview {
     padding-left: -1500px;
 } */
