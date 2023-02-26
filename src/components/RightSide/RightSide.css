@@ -30,6 +30,16 @@
     .RightSide .updates-h3 {
         margin-left: -10px;
     }    
+    .RightSide {
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+    .RightSide .cr-section {
+        margin-left: -20px;
+    }
+    .RightSide .cr-h3 {
+        margin-left: -0.1200px;
+    }
 }
 
 @media screen and (min-width: 1330px) { 

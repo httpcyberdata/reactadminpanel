@@ -97,4 +97,13 @@
     .CompactCard {
         width: 230%;
     }
+    .ExpandedCard {
+        top: 2rem;
+        height: 70vh;
+        left: 6rem;
+    }
+}
+
+@media screen and (min-width: 1300px) { 
+
 }
