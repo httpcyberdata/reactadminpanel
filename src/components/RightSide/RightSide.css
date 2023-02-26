@@ -7,17 +7,32 @@
 
 }
 .RightSide h3 {
-    margin-left: -130px;
+    margin-left: -100px;
 }
 
 .RightSide p {
     margin-left: -130px;
 }
-.RightSide .CustomerReview {
-    padding-left: -1500px;
+
+@media screen and (max-width: 1330px) {
+    .RightSide .updates-h3 {
+        margin-left: 20px;
+    }
+    .RightSide .cr-h3 {
+        margin-left: 20px;
+    }
 }
 
-@media screen and (max-width: 1519px) {
+@media screen and (max-width: 1200px) { 
+    .RightSide .updates-h3 {
+        margin-left: 36px;
+    }
+}
+/* .RightSide .CustomerReview {
+    padding-left: -1500px;
+} */
+
+/* @media screen and (max-width: 1519px) {
     .RightSide h3{
          margin-left: 50px;
     }
@@ -31,4 +46,4 @@
          margin-left: 130px;
     }
 
- }
+ } */

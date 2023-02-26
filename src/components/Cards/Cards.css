@@ -4,5 +4,11 @@
 }
 
 .parentContainer {
-    width: 330px;
+    width: 210px;
+}
+
+@media screen and (max-width: 1200px) {
+    .parentContainer {
+        width: 188px;
+    }
 }

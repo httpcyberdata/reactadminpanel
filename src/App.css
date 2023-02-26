@@ -40,6 +40,13 @@
   overflow: hidden;
 }
 
+@media screen and (max-width: 1200px) {
+  .AppGlass {
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+ }
+}
+
 /* :root {
   --yellow: linear-gradient(180deg, #F8D49A -146.42%, #FAD79D -46.42%);
   --orange: #fca61f;

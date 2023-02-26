@@ -55,7 +55,7 @@ const data = {
 const CustomerReview = () => {
     return (
         <div className="CustomerReview">
-            <Chart series={data.series}  options={data.options} type='area' />
+            <Chart className="chart-tr" series={data.series}  options={data.options} type='area' />
         </div> 
     )
 }
