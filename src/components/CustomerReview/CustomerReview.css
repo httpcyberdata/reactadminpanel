@@ -2,9 +2,8 @@
     margin-right: -100px;
 }
 
-@media screen and (max-width: 1330px) {
+@media screen and (min-width: 1300px) {
     .CustomerReview .chart-tr{
-       position: absolute;
-       padding-right: -300px;
+        
     }
 }

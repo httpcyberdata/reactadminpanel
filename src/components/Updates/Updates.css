@@ -32,6 +32,19 @@
 
 @media screen and (max-width: 1200px) { 
     .Updates {
-        margin-left: 40px;
+        margin-left: -10px;
+        width:100%;
     }
 }
+
+@media screen and (min-width: 1291px) { 
+    .Updates {
+        width: 120%;
+    }
+}
+
+@media screen and (min-width: 1330px) { 
+    .Updates {
+        margin-left: -60px;
+    }
+ }

@@ -27,6 +27,13 @@
     width: 80%;
 }
 
+@media screen and (max-width: 1200px) {
+    .Table {
+        width: 100%;
+        overflow: hidden;
+    }
+ }
+
 @media screen and (min-width:1696px) {
     .Table {
         width: 90%;

@@ -4,11 +4,21 @@
 }
 
 .parentContainer {
-    width: 210px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1200px) {
+
+    .Cards {
+        flex-direction: column;
+    }
+
     .parentContainer {
-        width: 188px;
+        height: 9rem;
+    }
+}
+@media screen and (min-width: 1291px) {  
+    .Cards {
+        width: 80%;
     }
 }
