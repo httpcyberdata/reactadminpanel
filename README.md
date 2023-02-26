@@ -26,7 +26,8 @@ ___________
 ![Sidebar animation](/public/images/sidebar_4.gif)
 ![Progressbar progress](/public/images/updatedpage_1.jpg)
 ![Updates on right side](/public/images/reactadminpanel_2.png)
-
+![Responsiveness](/public/images/reactadminpanel_responsive_1.gif)
+ 
 ### Apps used:
     - VS Code
     - Vivaldi

@@ -38,7 +38,13 @@
         margin-left: -20px;
     }
     .RightSide .cr-h3 {
-        margin-left: -0.1200px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 1180px) { 
+    .RightSide .cr-section {
+        margin-top: -10px;
     }
 }
 
@@ -53,6 +59,13 @@
         margin-left: -50px;
     }
 }
+
+@media screen and (max-width: 1330px) { 
+    .RightSide .cr-section {
+        margin-left: -70px;
+    }
+ }
+
 /* .RightSide .CustomerReview {
     padding-left: -1500px;
 } */
