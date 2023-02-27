@@ -5,7 +5,7 @@ import CustomerReview from '../CustomerReview/CustomerReview';
 const RightSide = () => {
   return (
     <div className="RightSide">
-        <div>
+        <div className="updates-section">
             <h3 className="updates-h3">Updates</h3>
             <Updates/>
         </div>

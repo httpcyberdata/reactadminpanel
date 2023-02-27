@@ -38,4 +38,13 @@
     .Cards {
         width: 38%;
     }
+    .parentContainer {
+        height: 9rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Cards {
+       margin-left: -100px;
+    }
 }

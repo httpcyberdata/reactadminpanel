@@ -26,7 +26,8 @@ ___________
 ![Sidebar animation](/public/images/sidebar_4.gif)
 ![Progressbar progress](/public/images/updatedpage_1.jpg)
 ![Updates on right side](/public/images/reactadminpanel_2.png)
-![Responsiveness](/public/images/reactadminpanel_responsive_1.gif)
+![Responsive 1](/public/images/reactadminpanel_responsive_1.gif)
+![Responsive 2](/public/images/reactadminpanel_3.gif)
  
 ### Apps used:
     - VS Code
@@ -108,3 +109,5 @@ const makeStyle = (status) => {
 }
 
 ```
+5. Seemingly difficult projects, can be done.
+Though this tutorial was daunting at first, I sharpened my ReactJS and VS code skills. I memorized stuff I could repeat later. I made the page responsive which was daunting at first because how could I make it responsive? Instead it was just the me with a complete mentality which is only thinking the page is responsive! No other considerations of imperfections of the project but being content in the project is in-fact responsive and in what ways. Though not tablet responsive it's 'mobile' responsive as in a modern touchscreen smartphone like iPhone XR, etc.
